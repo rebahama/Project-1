@@ -25,6 +25,14 @@ The home page will present the user with a short description of the website, it 
 
 
 
-## Contact us
-The contact us page will be 
+## Contact us page
+The contact us page will have three boxes, first one is name box, second is phonenumber and last one is an email box. The boxes will be marked with a "*" for all the required boxes so that the user will know wich must be filld in order to be able to click the submit button.
  ![Wireframe picture homepage](assets/images/wireframe3.png)
+
+
+ ## The menu page
+ This page is probably the most important aspect of the page, this is where the pizza menu will be presented to the user. This page will inlclude some animation to make it appealing
+ ![Wireframe picture homepage](assets/images/wireframe2.png)
+
+ ## The footer
+ The footer will have 3 clickable symbols to socialmedia accounts, one for "Instagram", one for "Facebook" and one for "Twitter". When the user clicks one either one then a new tap will open up and take you to the relevant page. The footer will always be visible when the user clicks on diffrent links on the navigationbar.
