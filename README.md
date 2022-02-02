@@ -36,3 +36,4 @@ The contact us page will have three boxes, first one is name box, second is phon
 
  ## The footer
  The footer will have 3 clickable symbols to socialmedia accounts, one for "Instagram", one for "Facebook" and one for "Twitter". When the user clicks one either one then a new tap will open up and take you to the relevant page. The footer will always be visible when the user clicks on diffrent links on the navigationbar.
+  ![Wireframe picture homepage](assets/images/footer.png)
