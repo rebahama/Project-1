@@ -12,6 +12,7 @@ body{
     font-weight: 800;
     background: url('../images/pizza.jpeg') no-repeat;
     background-color: #ed2929
+   
     
 }
 h1 {
@@ -106,6 +107,7 @@ border-radius: 50%;
 #button-menu-intro a:hover{
     color: red;
 }
+/* style the h2 element insde the menu and the paragraph text*/
 #about-us h2{
     
     background-color: #ed1515;
@@ -121,7 +123,10 @@ border-radius: 50%;
     color: gray;
     
 }
+ h2{
+  color: white;
 
+}
 
 
 
