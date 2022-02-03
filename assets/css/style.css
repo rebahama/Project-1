@@ -53,6 +53,7 @@ color:white;
     float: right;
     margin-right: 20px;
 }
+/* style and postion the menu*/
 #menu{
 color:white;
 background-color: rgba(0,0,0,.8);
@@ -64,7 +65,7 @@ margin-left: 15%;
 }
 #about-us{
 color:white;
-background-color:rgba(0,0,0,.8);
+background-color:rgba(0,0,0,.6);
 width: 400px;
 height: 600px;
 margin-top: 8%;
@@ -75,6 +76,28 @@ float: right;
 footer{
     background-color: red;
     clear: both;
+}
+#logo-intro h2{
+padding-top: 50px;
+color: white;
+font-size: 200%;
+text-align: center;
+}
+#button-menu-intro a{
+color: white;
+text-decoration: none;
+background-color: black;
+padding: 20px;
+border-radius: 50%;
+
+}
+#button-menu-intro{
+    text-align: center;
+    margin: 30px;
+   
+}
+#button-menu-intro a:hover{
+    color: red;
 }
 
 
