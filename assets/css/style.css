@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lato:wght@300&family=Oswald:wght@300&family=Roboto+Condensed:wght@300&display=swap');
 
 *{
     margin: 0;
@@ -53,8 +53,10 @@ color:white;
     float: right;
     margin-right: 20px;
 }
-/* style and postion the menu*/
+/* style and postion the menu and about us*/
 #menu{
+    font-size: 180%;
+font-family: 'Architects Daughter', cursive;
 color:white;
 background-color: rgba(0,0,0,.8);
 width: 400px;
@@ -64,6 +66,8 @@ margin-top: 8%;
 margin-left: 15%;
 }
 #about-us{
+    font-size: 180%;
+    font-family: 'Architects Daughter', cursive;
 color:white;
 background-color:rgba(0,0,0,.6);
 width: 400px;
@@ -77,12 +81,14 @@ footer{
     background-color: red;
     clear: both;
 }
+/* style the text inside menu and logo*/
 #logo-intro h2{
-padding-top: 50px;
+padding-top: 10%;
 color: white;
 font-size: 200%;
 text-align: center;
 }
+/*style the link to menu page on home page*/
 #button-menu-intro a{
 color: white;
 text-decoration: none;
@@ -94,10 +100,26 @@ border-radius: 50%;
 #button-menu-intro{
     text-align: center;
     margin: 30px;
+    font-size: 120%;
    
 }
 #button-menu-intro a:hover{
     color: red;
+}
+#about-us h2{
+    
+    background-color: #ed1515;
+    text-align: center;
+    
+}
+#menu h2{
+    background-color: #ed1515;
+    text-align: center;
+}
+.describe-menu{
+    font-size: large;
+    color: gray;
+    
 }
 
 
