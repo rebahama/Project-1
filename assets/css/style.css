@@ -184,10 +184,19 @@ form{
     color: white;
 }
 textarea{
+    max-width: 100%;
     resize: none;
 }
 #contact-form{
+    width: 30%;
     margin-top: 10%;
-    margin-left:38%;
+   margin-left: 38%;
+border: solid 1px;
+    
+}
+#contact-header{
+    text-align: center;
+    background-color: #0a0a0a;
+    height: 50px;
 }
 
