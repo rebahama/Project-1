@@ -21,13 +21,20 @@ h1 {
     color: #0a0a0a;
     text-transform: uppercase;
 }
-
-#logo{
-float: left;
+/*style logo in header*/
+#logo {
+text-align: center;
 font-size: 200%;
-color:white;
 
 }
+#logo a{
+    
+    color:#ffff;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+/* style the navbar*/
 #navmenu{
     
     list-style-type: none;
@@ -36,12 +43,14 @@ color:white;
     background-color: rgba(0,0,0,.8);
     overflow: hidden;
     font-size: 150%;
+    width: 100%;
     
     
 }
+
 #navmenu a{
     display: block;
-    color: white;
+    color: #ffff;
     padding: 14px 16px;
     text-decoration: none;
     
@@ -58,7 +67,7 @@ color:white;
 #menu{
     font-size: 180%;
 font-family: 'Architects Daughter', cursive;
-color:white;
+color:#ffff;
 background-color: rgba(0,0,0,.8);
 width: 400px;
 height: 600px;
@@ -71,7 +80,7 @@ border: solid 1px;
 #about-us{
     font-size: 180%;
     font-family: 'Architects Daughter', cursive;
-color:white;
+color:#ffff;
 background-color:rgba(0,0,0,.6);
 width: 400px;
 height: 600px;
@@ -85,13 +94,13 @@ border: solid 1px;
 /* style the text inside menu and logo*/
 #logo-intro h2{
 padding-top: 10%;
-color: white;
+color: #ffff;
 font-size: 200%;
 text-align: center;
 }
 /*style the link to menu page on home page*/
 #button-menu-intro a{
-color: white;
+color: #ffff;
 text-decoration: none;
 background-color: black;
 padding: 20px;
@@ -122,7 +131,7 @@ border-radius: 50%;
 }
 /* style the phonenumber*/
  #phone-number{
-  color: white;
+  color: #ffff;
   text-align: center;
   font-size: larger;
   text-transform: uppercase;
@@ -153,13 +162,13 @@ footer{
     font-size: 200%;
     padding: 60px;
     margin: 3px;
-    color: white;
+    color: #ffff;
     
 }
 /* style the open hours text*/
 .opening-hours{
     float: left;
-    color: white;
+    color: #ffff;
     padding-top: 6%;
     font-family: 'Architects Daughter', cursive;
 }
@@ -170,5 +179,15 @@ footer{
 .social-media i:hover{
     color: #686767;
 }
-
+/*styling contact-us*/
+form{
+    color: white;
+}
+textarea{
+    resize: none;
+}
+#contact-form{
+    margin-top: 10%;
+    margin-left:38%;
+}
 
