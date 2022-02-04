@@ -65,6 +65,8 @@ height: 600px;
 float: left;
 margin-top: 8%;
 margin-left: 15%;
+border: solid 1px;
+
 }
 #about-us{
     font-size: 180%;
@@ -76,6 +78,7 @@ height: 600px;
 margin-top: 8%;
 margin-right:15%;
 float: right;
+border: solid 1px;
 
 }
 footer{
@@ -108,23 +111,25 @@ border-radius: 50%;
     color: red;
 }
 /* style the h2 element insde the menu and the paragraph text*/
-#about-us h2{
+#about-us h2,#menu h2{
     
     background-color: #ed1515;
     text-align: center;
     
 }
-#menu h2{
-    background-color: #ed1515;
-    text-align: center;
-}
+
 .describe-menu{
     font-size: large;
     color: gray;
     
 }
- h2{
+/* style the phonenumber*/
+ #phone-number{
   color: white;
+  text-align: center;
+  font-size: larger;
+  text-transform: uppercase;
+  margin-top: 2%;
 
 }
 
