@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 
@@ -25,6 +26,7 @@ h1 {
 #logo {
 text-align: center;
 font-size: 200%;
+background-color:#ed1515;
 
 }
 #logo a{
@@ -93,10 +95,13 @@ border: solid 1px;
 
 /* style the text inside menu and logo*/
 #logo-intro h2{
-padding-top: 10%;
+padding-top: 3%;
 color: #ffff;
 font-size: 200%;
 text-align: center;
+background-color:rgba(0,0,0,.8);
+
+
 }
 /*style the link to menu page on home page*/
 #button-menu-intro a{
@@ -136,6 +141,7 @@ border-radius: 50%;
   font-size: larger;
   text-transform: uppercase;
   margin-top: 2%;
+  background-color: rgba(0,0,0,.8);
 
 }
 /*styling footer*/
@@ -180,23 +186,50 @@ footer{
     color: #686767;
 }
 /*styling contact-us*/
-form{
-    color: white;
-}
-textarea{
+
+textarea,input[type="text"],input[type="email"]{
     max-width: 100%;
     resize: none;
-}
-#contact-form{
-    width: 30%;
-    margin-top: 10%;
-   margin-left: 38%;
-border: solid 1px;
+    border:solid 1px black;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    padding: 7px;
+    margin: 0 auto;
+    border-radius: 4px;
+    
     
 }
-#contact-header{
+#contact-form{
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 5%;
+    background-color:rgba(0,0,0,.8);
+    color: #ffff;
+    border: solid 1px;
+    border-radius: 5px;
+   
+
+
+    
+}
+legend{
     text-align: center;
-    background-color: #0a0a0a;
-    height: 50px;
+    font-size: x-large;
+}
+
+#email-field{
+    width: 76%;
+}
+.button-form{
+    background-color:rgba(237,19,19,.6) ;
+    color: #ffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    
+}
+.text-form{
+    letter-spacing: 2px;
 }
 
