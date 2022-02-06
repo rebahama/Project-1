@@ -79,6 +79,10 @@ margin-left: 15%;
 border: solid 1px;
 
 }
+#menu p,#about-us p{
+    margin-left: 5px;
+}
+
 #about-us{
     font-size: 180%;
     font-family: 'Architects Daughter', cursive;
@@ -149,12 +153,12 @@ border-radius: 50%;
 footer{
     background-color: rgba(0,0,0,.8);
     clear: both;
-    
+	width: 100%;
+    height: 180px;
     position: absolute;
-    top:850px;
-   
-    width: 100%;
+    bottom: 0;
     
+   
     
 }
 .social-media{
@@ -167,7 +171,7 @@ footer{
 .social-media i{
     font-size: 200%;
     padding: 60px;
-    margin: 3px;
+    margin: 6px;
     color: #ffff;
     
 }
@@ -175,7 +179,7 @@ footer{
 .opening-hours{
     float: left;
     color: #ffff;
-    padding-top: 6%;
+    
     font-family: 'Architects Daughter', cursive;
 }
 .social-media a{
@@ -231,5 +235,6 @@ legend{
 }
 .text-form{
     letter-spacing: 2px;
+    font-size: x-large;
+    margin-left: 3px;
 }
-
