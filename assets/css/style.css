@@ -7,8 +7,7 @@
     box-sizing: border-box;
 }
 
-
-body{
+body {
     font-family:'Roboto Condensed', sans-serif;
     font-weight: 800;
     background: url('../images/pizza.jpeg') center;
@@ -22,6 +21,7 @@ body{
    
     
 }
+
 h1 {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 3px;
@@ -36,15 +36,16 @@ background-color:#ed1515;
 
 }
 
-#logo a{
+#logo a {
     
     color:#ffff;
     list-style-type: none;
     text-decoration: none;
 
 }
+
 /* style the navbar*/
-#navmenu{
+#navmenu {
     
     list-style-type: none;
     margin: 0;
@@ -57,23 +58,23 @@ background-color:#ed1515;
     
 }
 
-#navmenu a{
+#navmenu a {
     display: block;
     color: #ffff;
     padding: 14px 16px;
     text-decoration: none;
     
 }
-#navmenu a:hover{
+#navmenu a:hover {
     background-color:#686767;
     
 }
-#navmenu li{
+#navmenu li {
     float: right;
     margin-right: 20px;
 }
 /* style and postion the menu and about us*/
-#menu{
+#menu {
     font-size: 180%;
 font-family: 'Architects Daughter', cursive;
 color:#ffff;
@@ -88,11 +89,11 @@ max-width: 100%;
 margin-bottom: 5%;
 
 }
-#menu p,#about-us p{
+#menu p,#about-us p {
     margin-left: 5px;
 }
 
-#about-us{
+#about-us {
     font-size: 180%;
     font-family: 'Architects Daughter', cursive;
 color:#ffff;
@@ -108,48 +109,48 @@ margin-bottom: 5%;
 }
 
 /* style the text inside menu and logo*/
-#logo-intro h2{
-    
+#logo-intro h2 {
 color: #ffff;
 font-size: 200%;
 text-align: center;
 background-color:rgba(0,0,0,.8);
-
-
 }
+
 /*style the link to menu page on home page*/
-#button-menu-intro a{
+#button-menu-intro a {
 color: #ffff;
 text-decoration: none;
 background-color: black;
 padding: 20px;
 border-radius: 50%;
-
 }
-#button-menu-intro{
+
+#button-menu-intro {
     text-align: center;
     margin: 30px;
     font-size: 120%;
    
 }
-#button-menu-intro a:hover{
+#button-menu-intro a:hover {
     color: red;
 }
+
 /* style the h2 element insde the menu and the paragraph text*/
-#about-us h2,#menu h2{
+#about-us h2,#menu h2 {
     
     background-color: #ed1515;
     text-align: center;
     
 }
 
-.describe-menu{
+.describe-menu {
     font-size: large;
     color: gray;
     
 }
+
 /* style the phonenumber*/
- #phone-number{
+ #phone-number {
   color: #ffff;
   text-align: center;
   font-size: larger;
@@ -158,9 +159,9 @@ border-radius: 50%;
   background-color: rgba(0,0,0,.8);
 
 }
-/*styling footer*/
 
-footer{
+/*styling footer*/
+footer {
     background-color: rgba(0,0,0,.8);
     
 	width: 100%;
@@ -170,36 +171,40 @@ footer{
    
     
 }
-.social-media{
+
+.social-media {
     text-align: center;
-    
 }
-.social-media >li{
+
+.social-media >li {
     display: inline;
 }
-.social-media i{
+
+.social-media i {
     font-size: 200%;
     padding: 60px;
     margin: 6px;
     color: #ffff;
     
 }
+
 /* style the open hours text*/
-.opening-hours{
+.opening-hours {
     float: left;
     color: #ffff;
     
     font-family: 'Architects Daughter', cursive;
 }
-.social-media a{
+
+.social-media a {
    list-style-type:none;
    text-decoration: none;
 }
 .social-media i:hover{
     color: #686767;
 }
-/*styling contact-us*/
 
+/*styling contact-us*/
 textarea,input[type="text"],input[type="email"]{
     max-width: 100%;
     resize: none;
@@ -208,11 +213,10 @@ textarea,input[type="text"],input[type="email"]{
     margin-bottom: 10px;
     padding: 7px;
     margin: 0 auto;
-    border-radius: 4px;
-    
-    
+    border-radius: 4px; 
 }
-#contact-form{
+
+#contact-form {
     margin: 0 auto;
     width: 30%;
     margin-top: 5%;
@@ -220,44 +224,44 @@ textarea,input[type="text"],input[type="email"]{
     color: #ffff;
     border: solid 1px;
     border-radius: 5px;
-   margin-bottom: 5%;
-
-
-    
+   margin-bottom: 5%;    
 }
-legend{
+
+legend {
     text-align: center;
     font-size: x-large;
 }
 
-#email-field{
+#email-field {
     width: 76%;
 }
-.button-form{
+.button-form {
     background-color:rgba(237,19,19,.6) ;
     color: #ffff;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-    
 }
-.text-form{
+
+.text-form {
     letter-spacing: 2px;
     font-size: x-large;
     margin-left: 3px;
 }
+
 /* for screens below 1200 px*/
 @media screen  and (max-width: 1200px){
-    #about-us{
+    #about-us {
     width: 50%;
     max-width: 100%;
     clear: both;
     float: left;
     height: auto;
-   margin-left: 30%;
+    margin-left: 30%;
     }
-    #menu{
+
+    #menu {
         width: 50%;
         float: left;
         max-width: 100%;
@@ -265,20 +269,19 @@ legend{
         margin-left: 30%;
         
     }
-    #contact-form
-    {
+
+    #contact-form {
         width: 50%;
         float: left;
         max-width: 80%;
         height: auto;
         margin-left: 30%;
-
     }
     
-        
+        /* For screens below 750 px*/
     }
     @media screen  and (max-width: 750px){
-        #about-us{
+        #about-us {
         width: 70%;
         margin: 0 auto;
         min-width: 100%;
@@ -287,28 +290,34 @@ legend{
         height: auto;
        
         }
-        #menu{
+
+        #menu {
             width: 70%;
             margin: 0 auto;
             
             float: left;
             min-width: 100%;
             height: auto;
-            
-            
         }
-        #contact-form
-        {
+        #contact-form {
             
-        width: 90%;                    
+        min-width: 100%;                   
     
         }
-        #navmenu li{
+
+        #navmenu li {
             float: none;
             display: block;
-            text-align: left;
+            text-align: center;
            
     
+        }
+
+        .social-media li {
+            clear: both;
+            float: none;
+            display: block;
+            text-align: center;
         }
         
 
