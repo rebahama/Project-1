@@ -77,6 +77,7 @@ float: left;
 margin-top: 3%;
 margin-left: 15%;
 border: solid 1px;
+max-width: 100%;
 
 }
 #menu p,#about-us p{
@@ -94,6 +95,7 @@ margin-top: 3%;
 margin-right:15%;
 float: right;
 border: solid 1px;
+max-width: 100%;
 
 }
 
@@ -237,4 +239,77 @@ legend{
     letter-spacing: 2px;
     font-size: x-large;
     margin-left: 3px;
+}
+/* for screens below 1200 px*/
+@media screen  and (max-width: 1200px){
+    #about-us{
+    width: 50%;
+    max-width: 100%;
+    clear: both;
+    float: left;
+    height: auto;
+   margin-left: 30%;
+    }
+    #menu{
+        width: 50%;
+        float: left;
+        max-width: 100%;
+        height: auto;
+        margin-left: 30%;
+        
+    }
+    #contact-form
+    {
+        width: 50%;
+        float: left;
+        max-width: 80%;
+        height: auto;
+        margin-left: 30%;
+
+    }
+    
+        
+    }
+    @media screen  and (max-width: 750px){
+        #about-us{
+        width: 70%;
+        margin: 0 auto;
+        min-width: 100%;
+        clear: both;
+        float: left;
+        height: auto;
+       
+        }
+        #menu{
+            width: 70%;
+            margin: 0 auto;
+            float: left;
+            min-width: 100%;
+            height: auto;
+            
+            
+        }
+        #contact-form
+        {
+            
+            width: 70%;
+            margin: 0 auto;
+            float: left;
+            max-width: 100%;
+            height: auto;    
+            
+           
+    
+        }
+        #navmenu li{
+            float: none;
+            display: block;
+            text-align: left;
+           
+    
+        }
+        
+
+
+
 }
