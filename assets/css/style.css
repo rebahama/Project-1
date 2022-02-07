@@ -11,8 +11,9 @@
 body{
     font-family:'Roboto Condensed', sans-serif;
     font-weight: 800;
-    background: url('../images/pizza.jpeg') no-repeat;
-    background-color: #ed2929
+    background: url('../images/pizza.jpeg') no-repeat center;
+    background-size: cover;
+    background-color:#0a0a0a;
    
     
 }
@@ -29,6 +30,7 @@ font-size: 200%;
 background-color:#ed1515;
 
 }
+
 #logo a{
     
     color:#ffff;
@@ -283,6 +285,7 @@ legend{
         #menu{
             width: 70%;
             margin: 0 auto;
+            
             float: left;
             min-width: 100%;
             height: auto;
@@ -292,13 +295,9 @@ legend{
         #contact-form
         {
             
-            width: 70%;
-            margin: 0 auto;
-            float: left;
-            max-width: 100%;
-            height: auto;    
-            
-           
+        width: 90%;    
+        
+                     
     
         }
         #navmenu li{
