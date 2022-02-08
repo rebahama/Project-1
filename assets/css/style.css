@@ -203,7 +203,7 @@ color: #ffff;
 
 }
 /*styling contact-us*/
-textarea,input[type="text"],input[type="email"]{
+textarea,input[type="text"],input[type="email"],input[type="tel"]{
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -212,12 +212,10 @@ textarea,input[type="text"],input[type="email"]{
     margin-top: 6px;
     margin-bottom: 16px;
     resize: none;
-    
-
 }
 
 #contact-form {
-width: 30%;   
+width: 35%;   
 background-color: rgba(0,0,0,.8);
 padding: 25px;
 color: #ffff;
@@ -249,8 +247,25 @@ cursor: pointer;
     margin-left: 3px;
 }
 
+#thank-you-image{
+    
+    min-width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+}
+
+#thank-you-image img{
+   
+    border: solid 1px #0a0a0a;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    
+}
+
 /* for screens below 1200 px*/
-@media screen  and (max-width: 1200px){
+@media screen  and (max-width: 1220px){
     #about-us {
     width: 50%;
     max-width: 100%;
@@ -269,9 +284,20 @@ cursor: pointer;
         
     }
 
-        /* For screens below 750 px*/
+    #contact-form{
+        min-width: 70%;
     }
-    @media screen  and (max-width: 750px){
+
+ #thank-you-image img{
+     width: 50%;
+ }
+
+
+
+/* For screens below 750 px*/
+}
+    
+    @media screen  and (max-width: 780px){
         #about-us {
         width: 70%;
         margin: 0 auto;
@@ -316,6 +342,10 @@ cursor: pointer;
         }
         .footer-text-bottom{
            clear: both;
+        }
+
+        #thank-you-image img {
+            width: 50%;
         }
     
 
