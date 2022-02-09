@@ -46,7 +46,7 @@ background-color:#ed1515;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: rgba(0,0,0,.8);
+    background-color: #000000cc;
     overflow: hidden;
     font-size: 150%;
     width: 100%;
@@ -76,7 +76,7 @@ background-color:#ed1515;
 font-size: 180%;
 font-family: 'Architects Daughter', cursive;
 color:#ffff;
-background-color: rgba(0,0,0,.8);
+background-color: #000000cc;
 width: 400px;
 height: 600px;
 float: left;
@@ -95,7 +95,7 @@ margin-bottom: 5%;
 font-size: 180%;
 font-family: 'Architects Daughter', cursive;
 color:#ffff;
-background-color:rgba(0,0,0,.6);
+background-color:#000000cc;
 width: 400px;
 height: 600px;
 margin-top: 3%;
@@ -111,7 +111,7 @@ margin-bottom: 5%;
 color: #ffff;
 font-size: 200%;
 text-align: center;
-background-color:rgba(0,0,0,.8);
+background-color:#000000cc;
 font-family: 'Architects Daughter', cursive;
 
 }
@@ -120,7 +120,7 @@ font-family: 'Architects Daughter', cursive;
 #button-menu-intro a {
 color: #ffff;
 text-decoration: none;
-background-color: black;
+background-color: #0a0a0a;
 padding: 5px;
 border: solid 1px #ffff;
 font-family: 'Architects Daughter', cursive;
@@ -133,7 +133,7 @@ font-family: 'Architects Daughter', cursive;
    
 }
 #button-menu-intro a:hover {
-    color: red;
+    color: #ff0000;
 }
 
 /* style the h2 element insde the menu and the paragraph text*/
@@ -145,8 +145,8 @@ font-family: 'Architects Daughter', cursive;
 }
 
 .describe-menu {
-    font-size: large;
-    color: gray;
+    font-size:70%;
+    color: #808080;
     
 }
 
@@ -157,13 +157,13 @@ font-family: 'Architects Daughter', cursive;
   font-size: larger;
   text-transform: uppercase;
   margin-top: 2%;
-  background-color: rgba(0,0,0,.8);
+  background-color: #000000cc;
 
 }
 
 /*styling footer*/
 footer {
-background-color: rgba(0,0,0,.8);    
+background-color: #000000cc;    
 width: 100%;
 margin-top: auto;  
 }
@@ -218,7 +218,7 @@ textarea,input[type="text"],input[type="email"],input[type="tel"]{
 
 #contact-form {
 width: 35%;   
-background-color: rgba(0,0,0,.8);
+background-color: #000000cc;
 padding: 25px;
 color: #ffff;
 border-radius: 3%;
@@ -229,18 +229,19 @@ border: solid 1px #ffff;
 font-family: 'Architects Daughter', cursive;
 }
 /* text in the middle insde contactform*/
-legend {
+#form-heading {
     text-align: center;
-    font-size: x-large;
+    
 }
 
 .button-form {
-background-color:rgba(237,19,19,.6) ;
+background-color:#ff0000;
 color: #ffff;
-padding: 12px 25px;
+padding: 12px 20px;
 border: none;
 border-radius: 4px;
 cursor: pointer;
+font-size: large;
 }
 
 .text-form {
