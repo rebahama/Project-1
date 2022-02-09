@@ -41,7 +41,7 @@ background-color:#ed1515;
 }
 
 /* style the navbar*/
-#navmenu {
+#nav-menu {
     
     list-style-type: none;
     margin: 0;
@@ -54,18 +54,20 @@ background-color:#ed1515;
     
 }
 
-#navmenu a {
+#nav-menu a {
     display: block;
     color: #ffff;
     padding: 14px 16px;
     text-decoration: none;
     
 }
-#navmenu a:hover {
+
+#nav-menu a:hover {
     background-color:#686767;
     
 }
-#navmenu li {
+
+#nav-menu li {
     float: right;
     margin-right: 20px;
 }
@@ -182,7 +184,7 @@ margin-top: auto;
     
 }
 
-/* style the open hours text*/
+/* style the open hours text inside footer*/
 .opening-hours {
     float: left;
     color: #ffff;
@@ -202,15 +204,15 @@ margin-top: auto;
 color: #ffff;
 
 }
-/*styling contact-us*/
+/*styling contact-us and input bars inside the form*/
 textarea,input[type="text"],input[type="email"],input[type="tel"]{
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: 8px;
+    margin-bottom: 14px;
     resize: none;
 }
 
@@ -226,7 +228,7 @@ margin-bottom: 5%;
 border: solid 1px #ffff;
 font-family: 'Architects Daughter', cursive;
 }
-
+/* text in the middle insde contactform*/
 legend {
     text-align: center;
     font-size: x-large;
@@ -235,7 +237,7 @@ legend {
 .button-form {
 background-color:rgba(237,19,19,.6) ;
 color: #ffff;
-padding: 12px 20px;
+padding: 12px 25px;
 border: none;
 border-radius: 4px;
 cursor: pointer;
@@ -246,16 +248,14 @@ cursor: pointer;
     font-size: x-large;
     margin-left: 3px;
 }
-
+/* image inside thankyou-htmlfile*/
 #thank-you-image{
-    
     min-width: 100%;
     height: auto;
     margin-bottom: 4%;
 }
 
 #thank-you-image img{
-   
     border: solid 1px #0a0a0a;
     display: block;
     margin-left: auto;
@@ -310,19 +310,17 @@ cursor: pointer;
 
         #menu {
             width: 70%;
-            margin: 0 auto;
-            
+            margin: 0 auto; 
             float: left;
             min-width: 100%;
             height: auto;
         }
-        #contact-form {
-            
+        #contact-form {   
         min-width: 100%;                   
     
         }
 
-        #navmenu li {
+        #nav-menu li {
             float: none;
             display: block;
             text-align: center;
@@ -347,10 +345,5 @@ cursor: pointer;
         #thank-you-image img {
             width: 50%;
         }
-    
-
-        
-
-
 
 }
