@@ -3,7 +3,7 @@ Pizzapal is a restaurant website where you will be presented with a pizza menu, 
 # User stories
 As a user I would like a restaurant that is very simple with not to much information on the webpage, I would also like the site to display opening hours, price of the food and the phonenumber on one page so that I can order my food easy and simple without the need to navigate through diffrent pages to find one pice of information.
 
-# Features
+# Features in Wireframe
 
  ## Navigation
  
@@ -27,7 +27,7 @@ The home page will present the user with a short description of the website, it 
 
 ## Contact us page
 The contact us page will have three boxes, first one is the name box, second is phonenumber and last one is an email box. The boxes will be marked with a "*" for all the required boxes so that the user will know which box must be filled in order to be able to click the submit button and send the data.
- ![Wireframe picture homepage](assets/images/wireframe3.png)
+ ![Wireframe picture homepage](docs/wireframe3.png)
 
 
  ## The menu page
@@ -76,6 +76,11 @@ In the future when the restaurant is expanding to make other dishes there should
 
 ## Technology
 The technology used for creation of this webpage is: HTML, CSS and it was created on github.
+* Balsamiq to create the wireframe.
+* HTML for the structure of the page.
+* CSS for styling the page.
+* Github to deploy the website.
+* Gitpod to create the code for the site.
 
 # Testing
 * I tested the website in three diffrent browsers, the first one was Google Chrome, second one was Brave browser. And the last one was Internet Edge. The webpage did not show any bugs on these browsers.
