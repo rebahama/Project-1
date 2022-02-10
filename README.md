@@ -1,18 +1,18 @@
 # Pizzapal
 Pizzapal is a restaurant website where you will be presented with a pizza menu, then you can order either by phone or by the contactform. Pizzapal is targeting people mostly located in Sweden, Stockholm at any age. There will be a contactform where you can contact the resaturant should you have any questions. 
-
-
+# User stories
+As a user I would like a restaurant that is very simple with not to much information on the webpage, I would also like the site to display opening hours, price of the food and the phonenumber on one page so that I can order my food easy and simple without the need to navigate through diffrent pages to find one pice of information.
 
 # Features
+
+ ## Navigation
  
  ![Wirerame picture homepage](docs/wireframe1.png)
- ## Navigation
 
-
-1. The navigation menu will have 4 clickable links. Pizzapal, Home,Menu and Contact
-2. The navigation menu will always be available, it will not disappear when you click another page on the website.
-3. The navigation will clearly tell the user what page they will be on.
-4. The navigation will be using font and color that contrast with the background.
+*  The navigation menu will have 4 clickable links. Pizzapal, Home, Menu and Contact
+*  The navigation menu will always be available, it will not disappear when you click another page on the website.
+*  The navigation will clearly tell the user what page they will be on.
+*  The navigation will be using font and color that contrast with the background for good accessibility score.
 
 
 ## Homepage
@@ -26,28 +26,28 @@ The home page will present the user with a short description of the website, it 
 
 
 ## Contact us page
-The contact us page will have three boxes, first one is name box, second is phonenumber and last one is an email box. The boxes will be marked with a "*" for all the required boxes so that the user will know wich must be filld in order to be able to click the submit button.
+The contact us page will have three boxes, first one is the name box, second is phonenumber and last one is an email box. The boxes will be marked with a "*" for all the required boxes so that the user will know which box must be filled in order to be able to click the submit button and send the data.
  ![Wireframe picture homepage](assets/images/wireframe3.png)
 
 
  ## The menu page
- This page is probably the most important aspect of the page, this is where the pizza menu will be presented to the user. This page will inlclude some animation to make it appealing
+ This page is the most important aspect of the page, this is where the pizza menu will be presented to the user. This page will inlclude some animation to make it appealing. Here information about the menu and a phonenumber will be displayed on the page, opening hours will also be visable on the bottom in the footer. These three piece of information is what the users have demandd to be displayed on the same page.
  ![Wireframe picture homepage](docs/wireframe2.png)
 
  ## The footer
- The footer will have 3 clickable symbols to socialmedia accounts, one for "Instagram", one for "Facebook" and one for "Twitter". When the user clicks one either one then a new tap will open up and take you to the relevant page. The footer will always be visible when the user clicks on diffrent links on the navigationbar.
+ The footer will have 3 clickable symbols to socialmedia accounts, one for "Instagram", one for "Facebook" and one for "Twitter". When the user clicks one either one then a new tab will open up and take you to the relevant page. The footer will always be visible when the user clicks on diffrent links on the navigationbar.
   ![Wireframe picture homepage](docs/footer.png)
 
   # Finished website
 
   
   ## Navmenu
-Here the user can choose from "home" "menu" and "contactus". The logo "pizzapal" will also be clickable and take the user back to homepage.
+Here the user can choose from "home" "menu" and "contactus". The logo "pizzapal" is also clickable and takes the user back to the homepage.
 
   ![Menu page](docs/navmenu-page.png) 
 
 ## Homepage
-  The user will be seeing this on the homepage, it includes navigation menu to the right and on the bottom there is a footer with links to socialmedia. There is a bakground image of a pizza to make it very clear what the site is about. Also in the header on the top there is the logo with a pizza slice symbol to make it further clear what the site is about. On the left in the footer there is information on opening hours and copyright text. In the middle there is a link button texted:"take me to menu". To make it easier for the user to navigate directly to the menu where all the pizzas are. The button turns red when hovering with the mouse over it.
+  The user will be seeing this on the homepage, it includes a navigation menu to the right and on the bottom there is a footer with links to socialmedia. There is a bakground image of a pizza to make it very clear what the site is about and for visual purpose. Also in the header on the top there is the logo with a pizza slice symbol to make it further clear what the site is about. On the left in the footer there is information on opening hours and copyright text. In the middle there is a link button texted:"take me to menu". To make it easier for the user to navigate directly to the menu where all the pizzas are. The link button turns red when hovering with the mouse over it.
 
   ![Homepage picture](docs/home-page.png)
 
@@ -57,7 +57,7 @@ Here the user can choose from "home" "menu" and "contactus". The logo "pizzapal"
   ![Menu page](docs/menu-page.png) 
 
 ## Contactus page
-This page the user can send message about anything to the restaurant, it is required by the user to fill in "number" and "email" in order to send the information to the restaurant. The user is also required to type in a specific format on in the number field.
+This page the user can send a message about anything to the restaurant, it is required by the user to fill in "number" and "email" in order to send the information to the restaurant. The user is also required to type in a specific format in the number field.
 
 ![Contactus page](docs/contact-page.png) 
 
@@ -78,13 +78,16 @@ In the future when the restaurant is expanding to make other dishes there should
 The technology used for creation of this webpage is: HTML, CSS and it was created on github.
 
 # Testing
-* I tested the website in three diffrent browsers, the first one was Google Chrome, second one was Brave browser. And the last one was Internet Edge.
+* I tested the website in three diffrent browsers, the first one was Google Chrome, second one was Brave browser. And the last one was Internet Edge. The webpage did not show any bugs on these browsers.
 
-* I used the site: http://ami.responsivedesign.is/ to confirm that my site is responsiv to the most common screens. The devtools in googlechrome was also used to confirm that the site is responsiv. The most common phones and tablets was used "iphone4" "iphone 12pro" "ipad mini" "Ipad air" "Samsung galaxy s8,s7" "iphone 6/7/8" "Iphone xr".
 
-* I confirmed that the contactus-page form requires a certain type of formation to be inputed by the user.
+* I confirmed that the contactus-page form requires a certain type of formation to be inputed by the user before being able to send the data.
 
 * I have confirmed that the links in the page leads to relevant sites.
+
+# Supported Screens
+
+* I used the site: http://ami.responsivedesign.is/ to confirm that my site is responsiv to the most common screens. The devtools in googlechrome was also used to confirm that the site is responsiv. The most common phones and tablets was used "Iphone4" "Iphone 12pro" "Ipad mini" "Ipad air" "Samsung galaxy s8,s7" "Iphone 6/7/8" "Iphone xr".
 
 ## Bugs
 * Solved bugs
@@ -93,9 +96,10 @@ The technology used for creation of this webpage is: HTML, CSS and it was create
 
 
  ## Validation of page
-  * The index.html page showed 4 errors. On line 21 I had an </ a> tag that was empty.
-  The other three warnings were the same. The warning was:"Error: Bad value _blanc for attribute target on element a: Reserved keyword blanc used." on three diffrent lines insted of "blank" i wrote "blanc" in the links in my footer.
-
+* All the HTML files was validated in the offical W3C markup validation: [Validate](https://validator.w3.org/).
+ 
+* The index.html page showed 4 errors. On line 21 I had an </ a> tag that was empty.
+The other three warnings were the same. The warning was:"Error: Bad value _blanc for attribute target on element a: Reserved keyword blanc used." on three diffrent lines insted of "blank" i wrote "blanc" in the links in my footer.
 
 * The menu.html page showed one error there was a closing div tag that I removed after input check.
 
@@ -104,9 +108,9 @@ The technology used for creation of this webpage is: HTML, CSS and it was create
 
 * After fixing all the errors above, all the HTML files were validated once more and this time no errors appeard.
 
-* The CSS was validated in jigsaw and no errors were shown.
+* The CSS was validated in Jigsaw and no errors were shown.
 
-* The font color and background color has good score for accesiblity, I ran the lighthouse in devtools to confirm and the picture below shows the score.
+* The font color and background color has good score for accessibility, I ran the lighthouse in devtools to confirm and the picture below shows the score.
 
 
 ![Lighthouse score](docs/lighthouse-score.png) 
@@ -120,7 +124,13 @@ This site was deployed using Github. To deploy to Github pages.
 * You go to the repository Project-1.
 * Click on "settings" in the repository.
 * Under "code and automation" there is a link called "pages", click on "pages".
-* Under "source" select "branch" to "main" in the /root", click on save on the website is live.
+* Under "source" select "branch" to "main" in the /root", click on save and the website will be live.
+
+To acess the source code in Gitpod.
+* go to repository Project-1.
+* Click on the green button texted "Gitpod"
+* After clicking the green button type: "python3 -m http.server" to run the terminal in "bash".
+* Click on "open browser" to view the page.
 
 The link to the website can be found here: [Pizzapal](https://rebahama.github.io/Project-1/).
 
@@ -128,7 +138,7 @@ The link to the website can be found here: [Pizzapal](https://rebahama.github.io
 # Credits
 
 ## Content
-* Instruction on how to make the footer stuck in the bottom page was from this video: [Video](https://www.youtube.com/watch?v=yc2olxLgKLk).
+* Instructions on how to make the footer stuck in the bottom page was from this video: [Video](https://www.youtube.com/watch?v=yc2olxLgKLk).
 
 * Help on how to make a form that is responsiv: [Responsiv form](https://www.w3schools.com/howto/howto_css_responsive_form.asp)
 
@@ -138,9 +148,9 @@ The link to the website can be found here: [Pizzapal](https://rebahama.github.io
 
 
 ## Media
-* The background picture was taken from: [Pizzapicture](https://www.pexels.com/sv-se/foto/mat-pizza-person-hand-3915857/).
+* The background picture was taken from: [Pexels](https://www.pexels.com/sv-se/foto/mat-pizza-person-hand-3915857/).
 
-* The "thankyou" picute was taken from [Thankyou](https://www.pexels.com/sv-se/foto/gul-kakel-brev-kreativitet-1887992/).
+* The "thankyou" picture was taken from [Pexels](https://www.pexels.com/sv-se/foto/gul-kakel-brev-kreativitet-1887992/).
 
-* The icons in the footer and in the navbar was taken from [Icons](https://fontawesome.com/).
+* The icons in the footer and in the navbar was taken from [Fontawesome](https://fontawesome.com/).
 
