@@ -39,7 +39,7 @@ The contact us page will have three boxes, first one is the name box, second is 
   ![Wireframe picture homepage](docs/footer.png)
 
   # Finished website
-
+![Menu page](docs/responsiv-page.png) 
   
   ## Navmenu
 Here the user can choose from "home" "menu" and "contactus". The logo "pizzapal" is also clickable and takes the user back to the homepage.
