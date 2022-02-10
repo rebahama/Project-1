@@ -293,21 +293,23 @@ input[type="tel"] {
 /* For screens below 750 px*/
 @media screen and (max-width: 780px) {
     #about-us {
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
-        min-width: 100%;
+        max-width: 100%;
         clear: both;
-        float: left;
         height: auto;
+        font-size: medium;
+        margin-left: 10%;
     }
 
     #menu {
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
-        float: left;
-        min-width: 100%;
+        max-width: 100%;
         height: auto;
         margin-bottom: 10%;
+        font-size: medium;
+        margin-left: 10%;
     }
 
     #contact-form {
