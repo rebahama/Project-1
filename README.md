@@ -75,7 +75,8 @@ This is the footer where you will be presented with three diffrent symbols, each
 In the future when the restaurant is expanding to make other dishes there should be another page called "pasta" where menu for pasta will be displayed.
 
 ## Technology
-The technology used for creation of this webpage is: HTML, CSS and it was created on github.
+The technology used for creation of this webpage:
+
 * Balsamiq to create the wireframe.
 * HTML for the structure of the page.
 * CSS for styling the page.
@@ -94,11 +95,15 @@ The technology used for creation of this webpage is: HTML, CSS and it was create
 
 * I used the site: http://ami.responsivedesign.is/ to confirm that my site is responsiv to the most common screens. The devtools in googlechrome was also used to confirm that the site is responsiv. The most common phones and tablets was used "Iphone4" "Iphone 12pro" "Ipad mini" "Ipad air" "Samsung galaxy s8,s7" "Iphone 6/7/8" "Iphone xr".
 
-## Bugs
-* Solved bugs
+# Bugs
+## Solved bugs
 
- In the contact-us page, on the form there is a "send" button. The color of the button behaved strange when viewed type of screens. The color value in CSS was "rgba(237,19,19,.6). I changed this color to a hex value of:#ff0000, which is a red color. The bug was fixed after this change.
+* In the contact-us page, on the form there is a "send" button. The color of the button behaved strange when viewed type of screens. The color value in CSS was "rgba(237,19,19,.6). I changed this color to a hex value of:#ff0000, which is a red color. The bug was fixed after this change.
 
+* When the screen was below 340 px the text insde the menu was outside the box. ![Bug before](docs/bug-fix.png)
+
+* To fix this I changed the fontsize inte the css to medium and the result was much better.
+![Bug after](docs/bug-fix-after.png)
 
  ## Validation of page
 * All the HTML files was validated in the offical W3C markup validation: [Validate](https://validator.w3.org/).
